@@ -1,2 +1,9 @@
-package sweeper;public class GameState {
+package sweeper;
+
+public enum GameState {
+
+    PLAYED,
+    BOMBED,
+    WINNER,
+
 }
